@@ -1,0 +1,27 @@
+<%- include('../../partials/header') %>
+  
+<section id="content">
+  
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col">
+        <h4 class="text-capitalize">Global Average Temperatures</h4>
+      </div>
+    </div>
+    <!-- /.row -->
+    
+    <div class="row mt-3">
+      <div class="col">
+        <canvas id="chart" height="300"></canvas>
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  
+</section>
+  
+<%- include('../../partials/footer') %>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.bundle.min.js"></script>
+<script src="/assets/js/module1/02b-fetch-multiple-csv-exercise.js"></script>
+</body>
+</html>

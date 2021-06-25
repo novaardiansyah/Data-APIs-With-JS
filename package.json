@@ -1,0 +1,37 @@
+{
+  "name": "data-apis-with",
+  "version": "1.26.9",
+  "description": "Working with Data and APIs in JavaScript",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "ejs": "^3.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": [
+    {
+      "type": "git",
+      "url": "https://github.com/novaardiansyah1/Data-APIs-With-JS.git"
+    },
+    {
+      "type": "git",
+      "url": "https://gitlab.com/novaardiansyah1/Data-APIs-With-JS.git"
+    }
+  ],
+  "author": "novaardiansyah1",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/novaardiansyah1/Data-APIs-With-JS/issues"
+  },
+  "homepage": "https://github.com/novaardiansyah1/Data-APIs-With-JS#readme",
+  "keywords": [
+    "fetch",
+    "api",
+    "data"
+  ]
+}

@@ -1,0 +1,27 @@
+<%- include('../../partials/header') %>
+  
+<section id="content">
+  
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col">
+        <h4 class="text-capitalize">Where The ISS at?</h4>
+        
+        <p class="mt-3">
+          latitude: <span id="latitude"></span> <br>
+          longitude: <span id="longitude"></span>
+        </p>
+        
+        <div id="issMap" style="height: 180px"></div>
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  
+</section>
+  
+<%- include('../../partials/footer') %>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.bundle.min.js"></script>
+<script src="/assets/js/module1/03a-fetch-json-ISS-API.js"></script>
+</body>
+</html>
